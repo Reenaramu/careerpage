@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      /** @type {import('tailwindcss').Config} */
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+        plugins: [],
+      };
+    </script>
+    <style>
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+      @import url("https://fonts.googleapis.com/css?family=Righteous:400|Rowdies:400|Saira:500,400,600|Inter:700");
+*   {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    }
+    html,
+    body {
+        margin: 0px;
+        height: 100%;
+    }
+    /* a blue color as a generic focus style */
+    button:focus-visible {
+      outline: 2px solid #4a90e2 !important;
+      outline: -webkit-focus-ring-color auto 5px !important;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    </style>
+  </head>
+</head>
+<body class="overflow-x-hidden">
+    <div class="bg-white grid justify-items-center [align-items:start] w-screen">
+        <div class="bg-white overflow-hidden w-[1920px] h-[7793px] relative">
+            <div class="absolute w-[2122px] h-[3072px] top-0 left-[-202px]">
+          <div
+            class="absolute w-[1920px] h-[1845px] top-[1227px] left-[202px] -rotate-180 [background:linear-gradient(180deg,rgba(217,236,255,1)_0%,rgba(240,243,255,0)_100%)]"
+          ></div>
+          <div
+            class="absolute w-[200px] h-[60px] top-[2909px] left-[1062px] rounded-[10px] [background:linear-gradient(136deg,rgba(8,63,155,1)_0%,rgba(127,86,217,1)_100%)]"
+          ></div>
+          <div
+            class="absolute w-[196px] top-[2925px] left-[1064px] [font-family:'Righteous',Helvetica] font-normal text-white text-xl text-center tracking-[0] leading-[normal]"
+          >
+            Explore courses
+          </div>
+          <div class="absolute w-[1920px] h-[69px] top-0 left-[202px] bg-white"></div>
+          <div class="absolute w-[341px] h-[70px] top-[1344px] left-[993px]">
+            <p
+              class="absolute top-0 left-0 [font-family:'Rowdies',Helvetica] font-normal text-transparent text-[45px] tracking-[-1.35px] leading-[70px] whitespace-nowrap"
+            >
+              <span class="text-[#323232] tracking-[-0.61px]">Featured </span>
+              <span class="text-[#4883ff] tracking-[-0.61px]">Course</span>
+            </p>
+          </div>
+          <div
+            class="absolute top-[38px] left-[1743px] [font-family:'Saira',Helvetica] font-medium text-[#4a4a4a] text-xl tracking-[0] leading-[35px] underline whitespace-nowrap"
+          >
+            Login
+          </div>
+          <div
+            class="absolute w-[138px] h-[60px] top-[27px] left-[1834px] rounded-[10px] [background:linear-gradient(137deg,rgba(8,63,155,1)_0%,rgba(127,86,217,1)_100%)]"
+          ></div>
+          <div
+            class="absolute w-[76px] top-11 left-[1871px] [font-family:'Saira',Helvetica] font-medium text-white text-xl tracking-[0] leading-[22px] whitespace-nowrap"
+          >
+            Signup
+          </div>
+          <div class="absolute w-[1920px] h-[936px] top-[119px] left-[202px] bg-[#04016c]"></div>
+          <img
+            class="h-[936px] top-[119px] left-[202px] absolute w-[1920px] object-cover"
+            src="https://c.animaapp.com/meprj86gErBA1s/img/1524-background-1.png"
+          />
+          <img
+            class="absolute w-[1919px] h-[936px] top-[118px] left-[202px]"
+            src="https://c.animaapp.com/meprj86gErBA1s/img/rectangle-8679.png"
+          />
+          <div class="absolute w-[314px] h-[314px] top-[459px] left-0 bg-[#81c7a24c] rounded-[157px] blur-[60px]"></div>
+          <div class="absolute w-[489px] h-[70px] top-[801px] left-[349px] bg-white rounded-[7px]">
+            <p
+              class="absolute w-[258px] h-[18px] top-[22px] left-[35px] [font-family:'Righteous',Helvetica] font-normal text-[#4f547b] text-base tracking-[0] leading-[normal] whitespace-nowrap"
+            >
+              What do you want to learn today?
+            </p>
+            <button
+              class="all-[unset] box-border absolute w-[142px] h-[50px] top-2.5 left-[337px] rounded-[10px] [background:linear-gradient(132deg,rgba(48,35,178,1)_0%,rgba(127,86,217,1)_100%)]"
+            >
+              <img
+                class="absolute w-5 h-5 top-[13px] left-[30px]"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/icon-3.svg"
+              />
+              <div
+                class="absolute w-[50px] h-[18px] top-[15px] left-[62px] [font-family:'Righteous',Helvetica] font-normal text-white text-[15px] text-center tracking-[0] leading-[28.8px] whitespace-nowrap"
+              >
+                Search
+              </div>
+            </button>
+          </div>
+          <p
+            class="absolute w-[670px] h-52 top-[361px] left-[346px] [font-family:'Righteous',Helvetica] font-normal text-transparent text-[80px] tracking-[0] leading-[80px]"
+          >
+            <span class="text-white leading-[90px]">Good </span>
+            <span class="text-[#0d37cd] leading-[90px]">coaching </span>
+            <span class="text-white leading-[90px]">is good teaching &amp; nothing else.</span>
+          </p>
+          <div
+            class="absolute w-[460px] h-[13px] top-[285px] left-[349px] [font-family:'Righteous',Helvetica] font-normal text-[#ffffffcc] text-lg tracking-[3.00px] leading-5 whitespace-nowrap"
+          >
+            SUCCESSFUL COACHES ARE VISIONARIES
+          </div>
+          <p
+            class="absolute w-[947px] h-[41px] top-[1413px] left-[716px] [font-family:'Righteous',Helvetica] font-normal text-[#000000cc] text-[25px] tracking-[3.00px] leading-5"
+          >
+            THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART
+          </p>
+          <div
+            class="absolute w-[194px] h-[60px] top-[662px] left-[346px] rounded-[10px] overflow-hidden border-2 border-solid border-white"
+          >
+            <div class="relative h-[60px] rounded-[5px] overflow-hidden">
+              <div
+                class="absolute w-[126px] h-4 top-[21px] left-[38px] [font-family:'Righteous',Helvetica] font-normal text-white text-lg tracking-[1.00px] leading-7 whitespace-nowrap"
+              >
+                View Courses
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute w-[282px] h-4 top-[683px] left-[576px] [font-family:'Righteous',Helvetica] font-normal text-white text-lg tracking-[0] leading-[52px] whitespace-nowrap"
+          >
+            Get Free Consultation
+          </div>
+          <img
+            class="absolute w-[130px] h-[33px] top-[37px] left-[1469px]"
+            src="https://c.animaapp.com/meprj86gErBA1s/img/group-1.png"
+          />
+          <div class="absolute w-[276px] h-[158px] top-[327px] left-[1186px]">
+            <p
+              class="absolute w-[272px] h-[66px] top-[43px] left-0 [font-family:'Righteous',Helvetica] font-normal text-white text-base tracking-[0] leading-6"
+            >
+              In a coaching role, you ask the questions and rely more on your <br />staff, who become the experts, to
+              provide the information.
+            </p>
+            <div
+              class="h-[26px] top-[132px] [font-family:'Inter',Helvetica] font-bold text-[#0093e6] text-xs tracking-[0] leading-[25.2px] absolute left-0 whitespace-nowrap"
+            >
+              4.9
+            </div>
+            <div class="absolute w-[79px] h-[19px] top-[136px] left-[29px]">
+              <div class="relative w-[81px] h-[19px]">
+                <div
+                  class="w-[81px] h-2.5 top-[3px] [font-family:'Righteous',Helvetica] font-normal text-white text-[10px] tracking-[5.00px] leading-[18px] absolute left-0 whitespace-nowrap"
+                >
+                  &#9733&#9733&#9733&#9733&#9733
+                </div>
+                <div class="absolute w-[71px] h-[19px] top-0 left-0 overflow-hidden">
+                  <div
+                    class="w-[81px] h-2.5 top-[3px] [font-family:'Righteous',Helvetica] font-normal text-[#81c7a2] text-[10px] tracking-[5.00px] leading-[18px] absolute left-0 whitespace-nowrap"
+                  >
+                    &#9733&#9733&#9733&#9733&#9733
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="absolute w-[55px] h-[21px] top-0 left-0">
+              <div
+                class="absolute h-[21px] top-0 left-0 [font-family:'Rowdies',Helvetica] font-normal text-white text-base tracking-[0] leading-[20.4px] whitespace-nowrap"
+              >
+                Shyam
+              </div>
+            </div>
+          </div>
+          <img
+            class="absolute w-6 h-[146px] top-[333px] left-[1137px]"
+            src="Group 1000014970.png"
+          />
+          <img
+            class="absolute w-[233px] h-[326px] top-[785px] left-[973px]"
+            src="Rectangle 8673.png"
+          />
+          <img
+            class="absolute w-[313px] h-[359px] top-[744px] left-[933px]"
+            src="Rectangle 8674.png"
+          />
+          <img
+            class="absolute w-[271px] h-[338px] top-[765px] left-[954px]"
+            src="Rectangle 8675.png"
+          />
+          <img
+            class="absolute w-[1920px] h-[167px] top-[1057px] left-[202px]"
+            src="Rectangle 8678.png"
+          />
+          <div
+            class="absolute w-[1920px] h-[169px] top-[1055px] left-[202px] [background:linear-gradient(180deg,rgba(46,8,199,1)_0%,rgba(126,8,199,0)_100%)]"
+          ></div>
+          <img
+            class="absolute w-[120px] h-[37px] top-[1123px] left-[726px]"
+            src="Link ⏵ brand6.png.png"
+          />
+          <img
+            class="absolute w-[120px] h-[37px] top-[1122px] left-[1809px]"
+            src="Link ⏵ brand1.png.png"
+          />
+          <img
+            class="absolute w-[120px] h-[68px] top-[1100px] left-[1286px]"
+            src="Link ⏵ brand6.png.png"
+          />
+          <img
+            class="absolute w-[120px] h-[37px] top-[1116px] left-[1562px]"
+            src="Link ⏵ brand3.png.png"
+          />
+          <img
+            class="absolute w-[140px] h-[42px] top-[1116px] left-[1008px]"
+            src="Link ⏵ brand5.png.png"
+          />
+          <img
+            class="absolute w-[140px] h-[42px] top-[1116px] left-[454px]"
+            src="Link ⏵ brand1.png.png"
+          />
+          <div class="absolute w-[520px] h-[571px] top-[1626px] left-[350px] shadow-[0px_4px_4px_#d8ebff80]">
+            <div class="relative w-[512px] h-[571px] bg-[#f0f3ff] rounded-[0px_0px_20px_20px]">
+              <div class="absolute w-[510px] h-[571px] top-0 left-0.5 bg-white rounded-[20px]"></div>
+              <img
+                class="absolute w-[511px] h-[314px] top-0 left-0"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/mask-group-1.png"
+              />
+              <p
+                class="absolute w-[447px] top-[399px] left-8 [font-family:'Saira',Helvetica] font-semibold text-[#314360] text-[25px] tracking-[-0.75px] leading-[35px]"
+              >
+                Motion Graphics: Create a Nice <br />Typography Animation
+              </p>
+              <div
+                class="absolute top-[343px] left-8 [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                1,957 Students
+              </div>
+              <div
+                class="absolute top-[523px] left-[39px] [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+              >
+                Rs.499
+              </div>
+              <div
+                class="absolute top-[343px] left-[418px] [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                01h 59m
+              </div>
+              <img
+                class="absolute w-[26px] h-[26px] top-[507px] left-[447px]"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/9054263-bx-cart-alt-icon-1.svg"
+              />
+            </div>
+          </div>
+          <div class="absolute w-[520px] h-[571px] top-[2247px] left-[910px] shadow-[0px_4px_4px_#d8ebff80]">
+            <div class="relative w-[512px] h-[571px] bg-[#f0f3ff] rounded-[0px_0px_20px_20px]">
+              <div class="absolute w-[510px] h-[571px] top-0 left-0.5 bg-white rounded-[20px]"></div>
+              <img
+                class="absolute w-[511px] h-[314px] top-0 left-0"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/mask-group-2.png"
+              />
+              <p
+                class="absolute w-[447px] top-[399px] left-8 [font-family:'Saira',Helvetica] font-semibold text-[#314360] text-[25px] tracking-[-0.75px] leading-[35px]"
+              >
+                Marketing 2023: Complete Guide To<br />Instagram Growth
+              </p>
+              <div
+                class="absolute top-[343px] left-8 [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                595 Students
+              </div>
+              <div
+                class="absolute top-[343px] left-[418px] [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                01h 49m
+              </div>
+              <div
+                class="top-[515px] left-[39px] absolute [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+              >
+                Rs.499
+              </div>
+              <img
+                class="absolute w-[26px] h-[26px] top-[507px] left-[447px]"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/9054263-bx-cart-alt-icon-1.svg"
+              />
+            </div>
+          </div>
+          <div class="absolute w-[520px] h-[571px] top-[1626px] left-[907px] shadow-[0px_4px_4px_#d8ebff80]">
+            <div class="relative w-[512px] h-[571px]">
+              <div class="absolute w-[510px] h-[503px] top-[68px] left-0.5 bg-white rounded-[20px]"></div>
+              <img
+                class="absolute w-[511px] h-[314px] top-0 left-0"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/mask-group-3.png"
+              />
+              <div class="absolute w-[512px] h-[257px] top-[314px] left-0 bg-white rounded-[0px_0px_20px_20px]"></div>
+              <p
+                class="absolute w-[447px] top-[399px] left-8 [font-family:'Saira',Helvetica] font-semibold text-[#314360] text-[25px] tracking-[-0.75px] leading-[35px]"
+              >
+                Advance PHP knowledge with JS to<br />make smart web
+              </p>
+              <div
+                class="absolute top-[343px] left-8 [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                9,575 Students
+              </div>
+              <div
+                class="top-[509px] left-8 absolute [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+              >
+                Rs.499
+              </div>
+              <div
+                class="absolute top-[343px] left-[418px] [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                01h 59m
+              </div>
+              <img
+                class="absolute w-[26px] h-[26px] top-[507px] left-[447px]"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/9054263-bx-cart-alt-icon-1.svg"
+              />
+            </div>
+          </div>
+          <div class="absolute w-[518px] h-[571px] top-[1626px] left-[1462px] shadow-[0px_4px_4px_#d8ebff80]">
+            <div class="relative w-[512px] h-[571px]">
+              <div class="absolute w-[510px] h-[503px] top-[68px] left-0.5 bg-white rounded-[20px]"></div>
+              <img
+                class="absolute w-[511px] h-[314px] top-0 left-0"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/mask-group-4.png"
+              />
+              <div class="absolute w-[512px] h-[257px] top-[314px] left-0 bg-white rounded-[0px_0px_20px_20px]"></div>
+              <p
+                class="absolute w-[447px] top-[399px] left-8 [font-family:'Saira',Helvetica] font-semibold text-[#314360] text-[25px] tracking-[-0.75px] leading-[35px]"
+              >
+                Education Software and PHP and JS<br />System Script
+              </p>
+              <div
+                class="top-[343px] left-8 [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] absolute whitespace-nowrap"
+              >
+                2957 Students
+              </div>
+              <div
+                class="absolute top-[343px] left-[418px] [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                02h 49m
+              </div>
+              <img
+                class="absolute w-[26px] h-[26px] top-[507px] left-[447px]"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/9054263-bx-cart-alt-icon-1.svg"
+              />
+            </div>
+          </div>
+          <div class="absolute w-[1614px] h-[681px] top-[2137px] left-[372px] shadow-[0px_4px_4px_#d8ebff80]">
+            <div class="absolute w-[512px] h-[571px] top-[110px] left-[1090px]">
+              <div class="absolute w-[510px] h-[503px] top-[68px] left-0.5 bg-white rounded-[20px]"></div>
+              <img
+                class="absolute w-[511px] h-[314px] top-0 left-0"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/mask-group-5.png"
+              />
+              <div class="absolute w-[512px] h-[257px] top-[314px] left-0 bg-white rounded-[0px_0px_20px_20px]"></div>
+              <p
+                class="absolute w-[447px] top-[399px] left-8 [font-family:'Saira',Helvetica] font-semibold text-[#314360] text-[25px] tracking-[-0.75px] leading-[35px]"
+              >
+                Learn 3D Modelling and Design<br />for Beginners
+              </p>
+              <div
+                class="top-[343px] left-8 [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] absolute whitespace-nowrap"
+              >
+                458 Students
+              </div>
+              <div
+                class="top-[503px] left-[43px] absolute [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+              >
+                Rs.499
+              </div>
+              <div
+                class="absolute top-[343px] left-[418px] [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                03h 00m
+              </div>
+              <img
+                class="absolute w-[26px] h-[26px] top-[507px] left-[447px]"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/9054263-bx-cart-alt-icon-1.svg"
+              />
+            </div>
+            <div
+              class="top-0 left-[1133px] absolute [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+            >
+              Rs.499
+            </div>
+            <div
+              class="top-[641px] left-0 absolute [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+            >
+              Rs.499
+            </div>
+          </div>
+          <div
+            class="absolute w-[103px] h-[103px] top-[1346px] left-[428px] rounded-[51.62px] border-[18.83px] border-solid border-[#23bdee33] rotate-[-150.00deg]"
+          ></div>
+          <div class="absolute w-[18px] h-[5px] top-[45px] left-[321px] bg-white rotate-[-69.06deg]"></div>
+          <div
+            class="absolute top-[46px] left-[933px] [font-family:'Righteous',Helvetica] font-normal text-black text-xl tracking-[0] leading-[normal]"
+          >
+            Home
+          </div>
+          <div
+            class="absolute top-[46px] left-[1030px] [font-family:'Righteous',Helvetica] font-normal text-black text-xl tracking-[0] leading-[normal]"
+          >
+            About
+          </div>
+          <div
+            class="top-[47px] left-[1254px] text-black text-xl absolute [font-family:'Righteous',Helvetica] font-normal tracking-[0] leading-[normal]"
+          >
+            Contact
+          </div>
+          <div
+            class="absolute top-[47px] left-[1133px] [font-family:'Righteous',Helvetica] font-normal text-black text-xl tracking-[0] leading-[normal]"
+          >
+            Courses
+          </div>
+          <div class="absolute w-[519px] h-[576px] top-[2253px] left-[350px] shadow-[0px_4px_4px_#d8ebff80]">
+            <div class="relative w-[513px] h-[576px]">
+              <div class="absolute w-[510px] h-[503px] top-[73px] left-0.5 bg-white rounded-[20px]"></div>
+              <img
+                class="absolute w-[511px] h-[314px] top-0 left-0.5"
+                src="https://c.animaapp.com/meprj86gErBA1s/img/mask-group-6.png"
+              />
+              <div class="absolute w-[512px] h-[257px] top-[319px] left-0 bg-white rounded-[0px_0px_20px_20px]"></div>
+              <p
+                class="absolute w-[447px] top-[404px] left-8 [font-family:'Saira',Helvetica] font-semibold text-[#314360] text-[25px] tracking-[-0.75px] leading-[35px]"
+              >
+                The Complete Financial Analyst<br />Training &amp; Investing
+              </p>
+              <div
+                class="absolute top-[348px] left-8 [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                5,457 Students
+              </div>
+              <div
+                class="absolute top-[348px] left-[418px] [font-family:'Saira',Helvetica] font-medium text-[#4e596b] text-sm tracking-[-0.42px] leading-[35px] whitespace-nowrap"
+              >
+                01h 49m
+              </div>
+              <img
+                class="absolute w-[26px] h-[26px] top-[512px] left-[447px]"
+                src="D:\Data\VS-Code\GUVI\LandingPage\shopping-cart.png"
+              />
+            </div>
+          </div>
+          <div
+            class="top-[2764px] left-[389px] absolute [font-family:'Saira',Helvetica] font-semibold text-[#4e596b] text-[22px] tracking-[-0.66px] leading-[35px] whitespace-nowrap"
+          >
+            Rs.499
+          </div>
+          <img
+            class="absolute w-[1057px] h-[1368px] top-0 left-[1255px]"
+            src="https://c.animaapp.com/meprj86gErBA1s/img/ellipse-8324.png"
+          />
+          <img class="absolute w-[558px] h-[922px] top-[119px] left-[1414px] object-cover" style="mix-blend-mode: darken;" 
+          src="https://c.animaapp.com/meprj86gErBA1s/img/brunette-woman-hugging-laptop-1.png"  alt="Girl"/>
+
+          <img
+            class="w-[191px] h-[110px] top-[9px] left-[257px] absolute object-cover"
+            src="https://c.animaapp.com/meprj86gErBA1s/img/askmeidentity-2.png"
+          />
+        </div>
+        </div>
+    </div>    
+</body>
+</html>
